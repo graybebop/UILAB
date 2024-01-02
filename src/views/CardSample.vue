@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid :width="width">
+  <v-container class="content-wrap">
     <v-row align="center" justify="center">
       <v-col v-for="(variant, i) in variants" :key="i" cols="auto">
         <v-card class="mx-auto" max-width="344" :variant="variant">
