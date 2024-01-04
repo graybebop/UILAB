@@ -1,17 +1,19 @@
 <template>
   <v-app>
-    <default-bar />
-
+    <app-bar />
+    <!-- navigation -->
     <mr-nav />
-
-    <default-view />
+    <!--// navigation -->
+    <!-- content -->
+    <view-layout />
+    <!--// content -->
   </v-app>
 </template>
 
 <script setup>
-import DefaultBar from "@/layouts/default/AppBar.vue";
-import DefaultView from "@/layouts/default/ViewLayout.vue";
-import MrNav from "@/layouts/default/MrNav.vue";
+import AppBar from '@/layouts/default/AppBar.vue'
+import ViewLayout from '@/layouts/default/ViewLayout.vue'
+import MrNav from '@/layouts/default/MrNav.vue'
 </script>
 
 <style lang="scss">

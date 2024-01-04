@@ -1,19 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
 html,
 body {
-  font-family: "Noto Sans Kr", sans-serif;
+  font-family: 'Noto Sans Kr', sans-serif;
   font-size: 16px;
+}
+
+.logo-title {
+  font-weight: 700;
+}
+//layout
+.header-wrap {
+  .gnb {
+    padding: 20px 0 10px 0;
+  }
+  .content-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 .container-lg {
   width: 1200px;
   margin: 0 auto;
 }
-.gnb {
-  padding: 20px 0 10px 0;
-}
+
 .content-wrap {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0;
+  .v-card-title {
+    &.line-2 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+      white-space: wrap;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-lg">
+  <div class="container-lg py-3">
     <v-tabs bg-color="white">
       <v-tab value=""> 홈</v-tab>
       <v-tab>항공권</v-tab>

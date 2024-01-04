@@ -8,7 +8,4 @@
   </v-card>
 </template>
 
-<script setup>
-import { ref } from "vue";
-const show = ref(false);
-</script>
+<script setup></script>
